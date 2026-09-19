@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Edris Hanifi — a developer from Afghanistan." />
+  <title>Edris Hanifi — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top">EH<span>.</span></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M EDRIS</p>
+        <h1>Developer who builds <span>simple, useful</span> things.</h1>
+        <p class="hero-text">I’m Edris Hanifi, a developer from Afghanistan focused on clean interfaces, thoughtful details, and practical web experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">See my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch ↗</a>
+        </div>
+        <div class="mini-meta">
+          <span>📍 Afghanistan</span>
+          <span>•</span>
+          <span>Available for select projects</span>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="photo-card">
+          <img src="assets/profile.jpg" alt="Portrait of Edris Hanifi" />
+          <div class="photo-note">Developer / Creator</div>
+        </div>
+        <div class="float-tag float-one">Web</div>
+        <div class="float-tag float-two">UI</div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-intro">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about me.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="lead">I like turning ideas into straightforward digital products that feel calm, fast, and easy to use.</p>
+        <div class="about-copy">
+          <p>This sample portfolio keeps the same editorial, minimal spirit as modern Dribbble-style developer portfolios, but with fewer sections and less visual noise.</p>
+          <p>Replace the sample project text, links, and contact details with your real information when you’re ready.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-intro row-between">
+        <div>
+          <p class="eyebrow">02 / SELECTED WORK</p>
+          <h2>Small set of projects.</h2>
+        </div>
+        <span class="section-count">03 projects</span>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card">
+          <div>
+            <span class="project-index">01</span>
+            <h3>Personal Website</h3>
+            <p>A clean personal site with a focused homepage, responsive layout, and clear calls to action.</p>
+          </div>
+          <a href="#" class="project-link" aria-label="Open Personal Website project">View project ↗</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <span class="project-index">02</span>
+            <h3>Dashboard Concept</h3>
+            <p>A simple dashboard concept for tracking metrics without overwhelming the user.</p>
+          </div>
+          <a href="#" class="project-link" aria-label="Open Dashboard Concept project">View project ↗</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <span class="project-index">03</span>
+            <h3>Landing Page</h3>
+            <p>A compact marketing page designed to communicate one product idea quickly and clearly.</p>
+          </div>
+          <a href="#" class="project-link" aria-label="Open Landing Page project">View project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container skills-section">
+      <div class="section-intro">
+        <p class="eyebrow">03 / TOOLKIT</p>
+        <h2>What I enjoy working with.</h2>
+      </div>
+      <div class="skill-chips" aria-label="Skills">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span><span>Git</span><span>Figma</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <div>
+        <p class="eyebrow">LET'S TALK</p>
+        <h2>Have an idea? Let’s make it simple.</h2>
+      </div>
+      <div class="contact-side">
+        <p>Replace this with your preferred email, LinkedIn, GitHub, or WhatsApp link.</p>
+        <a class="contact-link" href="mailto:hello@example.com">hello@example.com ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Edris Hanifi</span>
+    <span>Built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
